@@ -1,0 +1,40 @@
+{
+  "name": "@skivvy/skivvy-package-stylus",
+  "version": "0.0.1",
+  "description": "Compile CSS using Stylus",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "test"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "eslint index.js lib test && mocha --reporter spec"
+  },
+  "keywords": [
+    "skivvy-package"
+  ],
+  "author": "Tim Kendrick <timkendrick@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "promise": "^7.0.1",
+    "stylus": "^0.51.1"
+  },
+  "devDependencies": {
+    "@skivvy/project-base": "latest",
+    "chai": "^2.0.0",
+    "chai-as-promised": "^5.0.0",
+    "eslint": "latest",
+    "mocha": "^2.0.0",
+    "object-assign": "^3.0.0",
+    "rewire": "^2.3.3",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  }
+}
