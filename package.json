@@ -1,6 +1,6 @@
 {
   "name": "@skivvy/skivvy-package-stylus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compile CSS using Stylus",
   "main": "index.js",
   "directories": {
