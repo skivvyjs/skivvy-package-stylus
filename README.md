@@ -15,7 +15,7 @@ skivvy install stylus
 
 ## Overview
 
-This package allows you to compile CSS using Stylus from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
+This package allows you to compile CSS using [Stylus](http://stylus-lang.com/) from within the [Skivvy](https://www.npmjs.com/package/skivvy) task runner.
 
 
 ## Included tasks
